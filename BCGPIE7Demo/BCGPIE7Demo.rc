@@ -1,0 +1,687 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BCGPIE7Demo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "#if defined (_BCGCBPRO_STATIC_)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BCGPIE7Demo.ico"
+IDR_BCGPIETYPE          ICON    DISCARDABLE     "res\\BCGPIE7DemoDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_EXPLORER_256        BITMAP  MOVEABLE PURE   "res\\explorer256.bmp"
+IDR_EXPLORER_BAR        BITMAP  MOVEABLE PURE   "res\\explorerbar16.bmp"
+IDB_EXPLORER            BITMAP  MOVEABLE PURE   "res\\explorer16.BMP"
+IDR_EXPLORER_BAR_256    BITMAP  MOVEABLE PURE   "res\\explorerbar256.bmp"
+IDB_EXPLORER_ICONS      BITMAP  MOVEABLE PURE   "res\\explorericons16.bmp"
+IDB_EXPLORER_ICONS_256  BITMAP  MOVEABLE PURE   "res\\explorericons256.BMP"
+IDR_TOOLBAR_IC          BITMAP  MOVEABLE PURE   "res\\toolbaric16.bmp"
+IDR_TOOLBAR_IC_256      BITMAP  MOVEABLE PURE   "res\\toolbaric256.bmp"
+IDB_TAB_DUMMY           BITMAP  MOVEABLE PURE   "res\\tab_dummy.bmp"
+IDR_ADDRESS_BAR         BITMAP  DISCARDABLE     "res\\address_.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_EXPLORER_BAR TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_VIEW_FAVORITES
+    BUTTON      ID_VIEW_HISTORY
+END
+
+IDR_TOOLBAR_IC TOOLBAR MOVEABLE PURE  16, 16
+BEGIN
+    BUTTON      ID_LINK_1
+END
+
+IDR_ADDRESS_BAR TOOLBAR DISCARDABLE  16, 16
+BEGIN
+    BUTTON      IDC_ADDRESS
+    SEPARATOR
+    BUTTON      ID_VIEW_STOP
+    SEPARATOR
+    BUTTON      ID_VIEW_REFRESH
+    SEPARATOR
+    BUTTON      IDC_SEARCH
+    SEPARATOR
+    BUTTON      ID_GOTO_SEARCH
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Window\tCtrl+N",         ID_FILE_NEW_WINDOW
+        MENUITEM "New &Tab\tCtrl+T",            ID_FILE_NEW_TAB
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Work Offline",               ID_FILE_WORK_OFFLINE
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Menu Bar",                   ID_VIEW_MENUBAR
+            MENUITEM "&Links",                      ID_VIEW_LINKSBAR
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Explorer Bar"
+        BEGIN
+            MENUITEM "&Favorites\tCtrl+I",          ID_VIEW_FAVORITES
+            MENUITEM "&History\tCtrl+H",            ID_VIEW_HISTORY
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen\tF11",           ID_VIEW_FULLSCREEN
+        MENUITEM "",                            ID_VIEW_FAVORITES_CENTER
+        MENUITEM "",                            ID_VIEW_ADD_TO_FAVORITES
+    END
+    POPUP "F&avorites"
+    BEGIN
+        MENUITEM "<FAVORITES>",                 ID_FAVORITES_DUMMY
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Internet Options",            ID_TOOLS_INTERNET_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Web Tour",                   ID_HELP_WEB_TUTORIAL
+        MENUITEM "&Online Support",             ID_HELP_ONLINE_SUPPORT
+        MENUITEM "&Send Feedback",              ID_HELP_SEND_FEEDBACK
+        MENUITEM SEPARATOR
+        MENUITEM "&About BCGPIE7Demo...",       ID_APP_ABOUT
+    END
+END
+
+IDR_BCGPIETYPE MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Window\tCtrl+N",         ID_FILE_NEW_WINDOW
+        MENUITEM "New &Tab\tCtrl+T",            ID_FILE_NEW_TAB
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "&Close Tab\tCtrl+W",          ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "Page Set&up...",              ID_FILE_PAGE_SETUP
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Preview...",            ID_FILE_PRINT_PREVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "P&roperties",                 ID_FILE_PROPERTIES
+        MENUITEM "&Work Offline",               ID_FILE_WORK_OFFLINE
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        MENUITEM "&Find on this Page...\tCtrl+F", ID_EDIT_FIND
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "&Menu Bar",                   ID_VIEW_MENUBAR
+            MENUITEM "&Links",                      ID_VIEW_LINKSBAR
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Explorer Bar"
+        BEGIN
+            MENUITEM "&Favorites\tCtrl+I",          ID_VIEW_FAVORITES
+            MENUITEM "&History\tCtrl+H",            ID_VIEW_HISTORY
+        END
+        MENUITEM SEPARATOR
+        POPUP "&Go To"
+        BEGIN
+            MENUITEM "&Back\tAlt+Left Arrow",       ID_GOTO_BACK
+            MENUITEM "&Forward\tAlt+Right Arrow",   ID_GOTO_FORWARD
+            MENUITEM SEPARATOR
+            MENUITEM "&Home Page\tAlt+Home",        ID_GOTO_HOMEPAGE
+        END
+        MENUITEM "Sto&p\tEsc",                  ID_VIEW_STOP
+        MENUITEM "&Refresh\tF5",                ID_VIEW_REFRESH
+        MENUITEM SEPARATOR
+        POPUP "Te&xt Size"
+        BEGIN
+            MENUITEM "Lar&gest",                    ID_VIEW_FONTSIZE_LARGEST
+            MENUITEM "&Larger",                     ID_VIEW_FONTSIZE_LARGER
+            MENUITEM "&Medium",                     ID_VIEW_FONTSIZE_MEDIUM
+            MENUITEM "&Smaller",                    ID_VIEW_FONTSIZE_SMALLER
+            MENUITEM "Sm&allest",                   ID_VIEW_FONTSIZE_SMALLEST
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Full Screen\tF11",           ID_VIEW_FULLSCREEN
+    END
+    POPUP "F&avorites"
+    BEGIN
+        MENUITEM "<FAVORITES>",                 ID_FAVORITES_DUMMY
+    END
+    POPUP "&Tools"
+    BEGIN
+        MENUITEM "Internet Options",            ID_TOOLS_INTERNET_OPTIONS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Web Tour",                   ID_HELP_WEB_TUTORIAL
+        MENUITEM "&Online Support",             ID_HELP_ONLINE_SUPPORT
+        MENUITEM "&Send Feedback",              ID_HELP_SEND_FEEDBACK
+        MENUITEM SEPARATOR
+        MENUITEM "&About BCGPIE7Demo...",       ID_APP_ABOUT
+    END
+END
+
+IDR_SEARCH_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Search"
+    BEGIN
+        MENUITEM "&Default",                    ID_GOTO_SEARCH
+        MENUITEM SEPARATOR
+        MENUITEM "&Find on this Page...",       ID_EDIT_FIND
+    END
+END
+
+IDR_HISTORY_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "History"
+    BEGIN
+        MENUITEM "&History\tCtrl+H",            ID_VIEW_HISTORY
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU DISCARDABLE 
+BEGIN
+    POPUP "Toolbar"
+    BEGIN
+        MENUITEM "&Menu Bar",                   ID_VIEW_MENUBAR
+        MENUITEM "&Links",                      ID_VIEW_LINKSBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        MENUITEM "Use Large Icons",             ID_VIEW_USE_LARGEICONS
+        MENUITEM "Lock the &Toolbars",          ID_TOOLBAR_LOCKTHETOOLBARS
+    END
+END
+
+IDR_ADD_FAVORITES_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Favorites"
+    BEGIN
+        MENUITEM "Add to Favorites...\tCtrl+D", ID_FAVORITES_ADD
+        MENUITEM "Add Tab Group to Favorites...", ID_FAVORITES_ADD_TABGROUP
+        MENUITEM SEPARATOR
+        MENUITEM "Organize Favorites...",       ID_FAVORITES_ORGANIZE
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_VIEW_FAVORITES_CENTER, VIRTKEY, ALT, NOINVERT
+    "F",            ID_EDIT_FIND,           VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_VIEW_HISTORY,        VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_VIEW_FAVORITES,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW_WINDOW,     VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_FILE_NEW_TAB,        VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_ESCAPE,      ID_VIEW_STOP,           VIRTKEY, NOINVERT
+    VK_F11,         ID_VIEW_FULLSCREEN,     VIRTKEY, NOINVERT
+    VK_F5,          ID_VIEW_REFRESH,        VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_HOME,        ID_GOTO_HOMEPAGE,       VIRTKEY, ALT, NOINVERT
+    VK_LEFT,        ID_GOTO_BACK,           VIRTKEY, ALT, NOINVERT
+    VK_RIGHT,       ID_GOTO_FORWARD,        VIRTKEY, ALT, NOINVERT
+    "W",            ID_FILE_CLOSE,          VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_VIEW_ADD_TO_FAVORITES, VIRTKEY, ALT, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "BCGPIE7Demo MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BCGPIE7Demo\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "OriginalFilename", "BCGPIE7Demo.EXE\0"
+            VALUE "ProductName", "BCGPIE7Demo Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_EXPLORER_BAR_32     PNG     MOVEABLE PURE   "res\\explorerbar32.PNG"
+IDB_EXPLORER_32         PNG     MOVEABLE PURE   "res\\explorer32.png"
+IDR_TOOLBAR_IC_32       PNG     MOVEABLE PURE   "res\\toolbaric32.png"
+IDB_FAVORITES_32        PNG     MOVEABLE PURE   "res\\favorites32.png"
+IDB_FAVORITES_32_120    PNG     MOVEABLE PURE   "res\\favorites32_120.png"
+IDB_TAB_ICONS_D_32      PNG     MOVEABLE PURE   "res\\Controls\\Tab\\IconsD.png"
+IDB_TAB_ICONS_N_32      PNG     MOVEABLE PURE   "res\\Controls\\Tab\\IconsN.png"
+IDB_TAB_ICONS_H_32      PNG     MOVEABLE PURE   "res\\Controls\\Tab\\IconsH.png"
+IDB_TAB_1               PNG     MOVEABLE PURE   "res\\Controls\\Style_1\\Tab.png"
+IDB_TAB_2               PNG     MOVEABLE PURE   "res\\Controls\\Style_2\\Tab.png"
+IDB_TAB_CORNERS         PNG     MOVEABLE PURE   "res\\Controls\\Tab\\Corners.png"
+IDB_TAB_SIDES           PNG     MOVEABLE PURE   "res\\Controls\\Tab\\Sides.png"
+IDB_BTN_SM_CLOSE        PNG     MOVEABLE PURE   "res\\Controls\\btnSmClose.png"
+IDB_BTN_PIN             PNG     MOVEABLE PURE   "res\\Controls\\btnPin.png"
+IDB_ADDRESS_BAR			PNG		MOVEABLE PURE   "res\\addressbar.png"
+IDB_ADDRESS_BAR_120		PNG		MOVEABLE PURE   "res\\addressbar_120.png"
+IDB_BTN_ADDRESS_BAR     PNG     MOVEABLE PURE   "res\\btnAddressBar.png"
+IDB_BTN_ADDRESS_BAR_120 PNG     MOVEABLE PURE   "res\\btnAddressBar_120.png"
+IDB_BTN_MENU_ADDRESS_BAR PNG    MOVEABLE PURE   "res\\btnMenuAddressBar.png"
+IDB_BTN_MENU_ADDRESS_BAR_120 PNG    MOVEABLE PURE   "res\\btnMenuAddressBar_120.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ADDRESS_BAR DIALOG DISCARDABLE  0, 0, 381, 20
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "",ID_GOTO_BACK,3,3,13,13,NOT WS_TABSTOP
+    PUSHBUTTON      "",ID_GOTO_HISTORY,31,3,13,13,NOT WS_TABSTOP
+    PUSHBUTTON      "",ID_GOTO_FORWARD,17,3,13,13,NOT WS_TABSTOP
+    CONTROL         "",IDC_ADDRESS,"RICHEDIT",ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_BORDER | WS_TABSTOP,83,3,98,14
+    PUSHBUTTON      "",ID_VIEW_STOP,185,3,13,13,NOT WS_TABSTOP
+    PUSHBUTTON      "",ID_VIEW_REFRESH,202,3,13,13,NOT WS_TABSTOP
+    CONTROL         "",IDC_SEARCH,"RICHEDIT",ES_AUTOHSCROLL | ES_WANTRETURN | 
+                    WS_BORDER | WS_TABSTOP,223,3,126,14
+    PUSHBUTTON      "",ID_GOTO_SEARCH,353,3,13,13,NOT WS_TABSTOP
+    PUSHBUTTON      "",ID_GOTO_SEARCH_MENU,367,3,9,13,NOT WS_TABSTOP
+END
+
+IDD_TAB_BAR DIALOG DISCARDABLE  0, 0, 82, 20
+STYLE WS_CHILD | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "",ID_VIEW_FAVORITES_CENTER,3,3,13,13,NOT WS_TABSTOP
+    PUSHBUTTON      "",ID_VIEW_ADD_TO_FAVORITES,17,3,13,13,NOT WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// XML
+//
+
+IDX_ADDRESS_XML_2       XML     MOVEABLE PURE   "res\\Controls\\style_2.xml"
+IDX_ADDRESS_XML_1       XML     MOVEABLE PURE   "res\\Controls\\style_1.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      MOVEABLE PURE   "xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "BCGPIE7Demo"
+    IDR_BCGPIETYPE          "\nBCGPIE\nBCGPIE\n\n\nBCGPIE7Demo.Document\nBCGPIE Document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "BCGPIE7Demo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Opens a document in this window.\nOpen"
+    ID_FILE_CLOSE           "Closes the active document.\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save this document as a file.\nSave As"
+    ID_FILE_PAGE_SETUP      "Changes paper, headers and footers, orientation, and margins for this page.\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Prints this page.\nPrint"
+    ID_FILE_PRINT_DIRECT    "Send the document directly to the default printer without making changes\nQuick Print"
+    ID_FILE_PRINT_PREVIEW   "Previews how this document will print.\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Closes the window.\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copies the current selection onto the Clipboard.\nCopy"
+    ID_EDIT_CUT             "Removes the current selection and copies it onto the Clipboard.\nCut"
+    ID_EDIT_FIND            "Searches for text on this page.\nFind"
+    ID_EDIT_PASTE           "Inserts the items you have copied or cut into the selected location.\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Selects all items on this page.\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Shows or hides the status bar.\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_MANAGER       "Manages the currently opened window\nWindow List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CUSTOMIZE       "Customize toolbars ane menus.\nCustomize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_ICON       " "
+    ID_INDICATOR_PROGRESS   " "
+    IDS_WINDOWS_MANAGER     "&Windows..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_FAVORITES       "Shows the Favorites bar.\nView Favorites"
+    ID_VIEW_HISTORY         "Shows the History bar.\nView History"
+    IDS_LINKSBAR_NAME       "Links"
+    ID_VIEW_LINKSBAR        "Display the Quick Links bar.\nLinks"
+    ID_GOTO_BACK            "Goes to the previous page.\nBack"
+    ID_GOTO_FORWARD         "Goes to the next page.\nForward"
+    ID_GOTO_HOMEPAGE        "Goes to your home page.\nHome Page"
+    ID_VIEW_STOP            "Stops the current page from loading.\nStop"
+    ID_VIEW_REFRESH         "Refreshes the contents of the current page.\nRefresh"
+    ID_VIEW_FONTSIZE_LARGEST "Selects largest font size.\nLargest"
+    ID_VIEW_FONTSIZE_LARGER "Selects large font size.\nLarge"
+    ID_VIEW_FONTSIZE_MEDIUM "Selects medium font size.\nMedium"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_FONTSIZE_SMALLER "Selects small font size.\nSmaller"
+    ID_VIEW_FONTSIZE_SMALLEST "Selects smallest font size.\nSmallest"
+    ID_FILE_NEW_WINDOW      "Opens a new Explorer window.\nNew Window"
+    ID_FILE_NEW_TAB         "Opens a new Explorer tab.\nNew Tab"
+    IDS_HTML_FILETYPES      "HTML Files|*.htm;*.html|Text Files|*.txt|GIF Files|*.gif|JPEG Files|*.jpg;*.jpeg|AU Files|*.au|AIFF Files|*.aif;*.aiff|XBM Files|*.xbm|All Files|*.*||"
+    IDS_HELP_WEB_TUTORIAL   "http://www.microsoft.com/windows/ie/ie7/tour/fre/default.mspx"
+    IDS_HELP_ONLINE_SUPPORT "http://support.microsoft.com/default.aspx"
+    IDS_HELP_SEND_FEEDBACK  "http://www.microsoft.com/windows/products/winfamily/ie/iefaq.mspx"
+    ID_FILE_WORK_OFFLINE    "Allows you to view offline Web pages while not connected.\nWork Offline"
+    ID_VIEW_FULLSCREEN      "Maximizes window to full screen.\nFull Screen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_PROPERTIES      "Displays the properties of this document.\nProperties"
+    ID_GOTO_SEARCH          "Search\nSearch"
+    ID_VIEW_FAVORITES_CENTER "View favorites and history\nFavorites Center"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_ADDRESS             "Address\nAddress"
+    IDC_SEARCH              "Search\nSearch"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BCGPIE7Demo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+#if defined (_BCGCBPRO_STATIC_)
+#include "BCGCBPro.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

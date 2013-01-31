@@ -1,0 +1,1205 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BCGPCalendarDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "#if defined (_BCGCBPRO_STATIC_)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Luna.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Obsidian.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Silver.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Aqua.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BCGPCalendarDemo.ico"
+IDR_BCGPCATYPE          ICON    DISCARDABLE     "res\\BCGPCalendarDemoDoc.ico"
+IDI_PRNTYPE_1           ICON    DISCARDABLE     "res\\prntype_1.ico"
+IDI_PRNTYPE_2           ICON    DISCARDABLE     "res\\prntype_2.ico"
+IDI_PRNTYPE_3           ICON    DISCARDABLE     "res\\prntype_3.ico"
+IDI_PRNTYPE_4           ICON    DISCARDABLE     "res\\prntype_4.ico"
+IDI_USERS               ICON    DISCARDABLE     "res\\users.ico"
+IDI_SECURITY            ICON    DISCARDABLE     "res\\security.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_WORKSPACE           BITMAP  DISCARDABLE     "res\\workspace.bmp"
+IDB_TOOLBAR256          BITMAP  MOVEABLE PURE   "res\\Toolbar256.bmp"
+IDR_PLANNER             BITMAP  DISCARDABLE     "res\\plan_tb.bmp"
+IDB_PLANNER_TB256       BITMAP  DISCARDABLE     "res\\plan_tb256.bmp"
+IDR_PLANNER_MULTI       BITMAP  DISCARDABLE     "res\\planmulti_tb.bmp"
+IDB_PLANNER_MULTI_TB256 BITMAP  DISCARDABLE     "res\\planmulti_tb256.bmp"
+IDB_CAPTION             BITMAP  DISCARDABLE     "res\\caption.bmp"
+IDR_PLANNER_DUMMY       BITMAP  DISCARDABLE     "res\\plan_d_tb.bmp"
+IDB_PLANNER_DUMMY_TB256 BITMAP  DISCARDABLE     "res\\plan_d_tb256.bmp"
+IDB_CALENDAR_ICONS      BITMAP  DISCARDABLE     "res\\calendar_icons.BMP"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_CALENDAR_CLOCK_C    PNG     DISCARDABLE     "res\\Clock_Clock.png"
+IDB_CALENDAR_CLOCK_H    PNG     DISCARDABLE     "res\\Clock_Hours.png"
+IDB_CALENDAR_CLOCK_M    PNG     DISCARDABLE     "res\\Clock_Minutes.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_PLANNER TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PLANNER_NEW
+    BUTTON      ID_PLANNER_REMOVE_APP
+    SEPARATOR
+    BUTTON      ID_PLANNER_GOTO_TODAY
+    SEPARATOR
+    BUTTON      ID_PLANNER_MODE_DAY
+    BUTTON      ID_PLANNER_MODE_WORKWEEK
+    BUTTON      ID_PLANNER_MODE_WEEK
+    BUTTON      ID_PLANNER_MODE_MONTH
+    BUTTON      ID_PLANNER_MODE_MULTI
+END
+
+IDR_PLANNER_DUMMY TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PLANNER_NEW_APPOINTMENT
+    BUTTON      ID_PLANNER_NEW_REC_APPOINTMENT
+END
+
+IDR_PLANNER_MULTI TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_PLANNER_RESOURCE
+    SEPARATOR
+    BUTTON      ID_PLANNER_RESOURCE_ADD
+    BUTTON      ID_PLANNER_RESOURCE_REMOVE
+    BUTTON      ID_PLANNER_RESOURCE_PROP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Planner"
+    BEGIN
+        POPUP "&Resources"
+        BEGIN
+            MENUITEM "&Add...",                     ID_PLANNER_RESOURCE_ADD
+            MENUITEM "&Delete",                     ID_PLANNER_RESOURCE_REMOVE
+
+            MENUITEM "&Properties...",              ID_PLANNER_RESOURCE_PROP
+        END
+        POPUP "&Appointment"
+        BEGIN
+            MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+
+            MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+            MENUITEM SEPARATOR
+            MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+            MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+            MENUITEM SEPARATOR
+            MENUITEM "&Open",                       ID_PLANNER_OPEN_APP
+            MENUITEM SEPARATOR
+            MENUITEM "&Delete",                     ID_PLANNER_REMOVE_APP
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Go to This &Day",             ID_PLANNER_GOTO_THISDAY
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+        MENUITEM SEPARATOR
+        POPUP "&View"
+        BEGIN
+            POPUP "&Mode"
+            BEGIN
+                MENUITEM "&Day",                        ID_PLANNER_MODE_DAY
+                MENUITEM "Wo&rk Week",                  ID_PLANNER_MODE_WORKWEEK
+
+                MENUITEM "&Week",                       ID_PLANNER_MODE_WEEK
+                MENUITEM "&Month",                      ID_PLANNER_MODE_MONTH
+
+                MENUITEM "M&ulti",                      ID_PLANNER_MODE_MULTI
+
+            END
+            POPUP "Time &Scale"
+            BEGIN
+                MENUITEM "6&0 Minutes",                 ID_PLANNER_TIMELINE_60
+                , CHECKED
+                MENUITEM "&30 Minutes",                 ID_PLANNER_TIMELINE_30
+
+                MENUITEM "&20 Minutes",                 ID_PLANNER_TIMELINE_20
+
+                MENUITEM "&15 Minutes",                 ID_PLANNER_TIMELINE_15
+
+                MENUITEM "10 &Minutes",                 ID_PLANNER_TIMELINE_10
+
+                MENUITEM "&6 Minutes",                  ID_PLANNER_TIMELINE_6
+
+                MENUITEM "&5 Minutes",                  ID_PLANNER_TIMELINE_5
+
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "Show End Time",               ID_PLANNER_DRAW_TIME_FINISH
+            , CHECKED
+            MENUITEM "Show Time As Clocks",         ID_PLANNER_DRAW_TIME_AS_ICONS
+            , CHECKED
+            MENUITEM "&Compress &Weekend Days",     ID_PLANNER_COMPRESS_WEEKEND
+            , CHECKED
+            MENUITEM SEPARATOR
+            MENUITEM "Show ToolTips",               ID_PLANNER_SHOWTOOLTIP
+            , CHECKED
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        MENUITEM "&Caption Bar",                ID_VIEW_CAPTIONBAR
+        MENUITEM "Ca&lendar Bar",               ID_VIEW_CALENDARBAR
+        MENUITEM "&Properties Bar",             ID_VIEW_PROPBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Office &2000",                ID_VIEW_APPLOOK_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS2005
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_2007_1
+
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_2007_2
+
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_2007_3
+
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_2007_4
+
+            END
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS2008
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About BCGPCalendarDemo...",  ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU DISCARDABLE 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "&Standard",                   ID_VIEW_TOOLBAR
+        MENUITEM "&Planner",                    ID_VIEW_PLANNERBAR
+        MENUITEM "Planner &Resources",          ID_VIEW_PLANNERMULTIBAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Customize...",               ID_VIEW_CUSTOMIZE
+    END
+END
+
+IDR_PLANNER_APPOINTMENT MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "&Open",                       ID_PLANNER_OPEN_APP
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete",                     ID_PLANNER_REMOVE_APP
+    END
+END
+
+IDR_PLANNER_CLIENT_DAY MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+    END
+END
+
+IDR_PLANNER_CLIENT_MONTH MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Go to This &Day",             ID_PLANNER_GOTO_THISDAY
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+        MENUITEM SEPARATOR
+        MENUITEM "Show End Time",               ID_PLANNER_DRAW_TIME_FINISH
+        , CHECKED
+        MENUITEM "Show Time As Clocks",         ID_PLANNER_DRAW_TIME_AS_ICONS
+        , CHECKED
+        MENUITEM "&Compress &Weekend Days",     ID_PLANNER_COMPRESS_WEEKEND
+        , CHECKED
+    END
+END
+
+IDR_PLANNER_CLIENT_WEEK MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Go to This &Day",             ID_PLANNER_GOTO_THISDAY
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+        MENUITEM SEPARATOR
+        MENUITEM "Show End Time",               ID_PLANNER_DRAW_TIME_FINISH
+        , CHECKED
+        MENUITEM "Show Time As Clocks",         ID_PLANNER_DRAW_TIME_AS_ICONS
+        , CHECKED
+    END
+END
+
+IDR_PLANNER_CLIENT_WORK_WEEK MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+    END
+END
+
+IDR_PLANNER_TIMEBAR MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "6&0 Minutes",                 ID_PLANNER_TIMELINE_60
+        , CHECKED
+        MENUITEM "&30 Minutes",                 ID_PLANNER_TIMELINE_30
+        MENUITEM "&20 Minutes",                 ID_PLANNER_TIMELINE_20
+        MENUITEM "&15 Minutes",                 ID_PLANNER_TIMELINE_15
+        MENUITEM "10 &Minutes",                 ID_PLANNER_TIMELINE_10
+        MENUITEM "&6 Minutes",                  ID_PLANNER_TIMELINE_6
+        MENUITEM "&5 Minutes",                  ID_PLANNER_TIMELINE_5
+    END
+END
+
+IDR_PLANNER_NEW MENU DISCARDABLE 
+BEGIN
+    MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+    MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+    MENUITEM SEPARATOR
+    MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+    MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+END
+
+IDR_PLANNER_CLIENT_MULTI MENU DISCARDABLE 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Appointment",            ID_PLANNER_NEW_APPOINTMENT
+        MENUITEM "New All Day &Event",          ID_PLANNER_NEW_EVENT
+        MENUITEM SEPARATOR
+        MENUITEM "New Recurring A&ppointment",  ID_PLANNER_NEW_REC_APPOINTMENT
+
+        MENUITEM "New Recurring E&vent",        ID_PLANNER_NEW_REC_EVENT
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "T&oday",                      ID_PLANNER_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_PLANNER_GOTO_DAY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PLANNER_GOTO_DAY DIALOG DISCARDABLE  0, 0, 238, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Go To Date"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,6,3,164,48
+    LTEXT           "&Date:",IDC_STATIC,14,16,36,8
+    PUSHBUTTON      "Button1",IDC_DATETIMEPICKER,50,13,113,14
+    LTEXT           "&Show in:",IDC_STATIC,14,34,36,8
+    COMBOBOX        IDC_MODE_COMBO,50,32,113,67,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,181,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,181,24,50,14
+END
+
+IDD_PRNTYPE DIALOG DISCARDABLE  0, 0, 217, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Print type"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_PRNTYPE_1,IDC_STATIC,7,7,20,20,SS_REALSIZEIMAGE
+    CONTROL         "&Day print type",IDC_PRNTYPE_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON,36,12,120,10
+    ICON            IDI_PRNTYPE_2,IDC_STATIC,7,36,20,20,SS_REALSIZEIMAGE
+    CONTROL         "&Week print type",IDC_PRNTYPE_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,36,42,120,10
+    ICON            IDI_PRNTYPE_3,IDC_STATIC,7,65,20,20,SS_REALSIZEIMAGE
+    CONTROL         "&Month print type",IDC_PRNTYPE_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON,36,70,120,10
+    ICON            IDI_PRNTYPE_4,IDC_STATIC,7,95,20,20,SS_REALSIZEIMAGE
+    CONTROL         "&Two columns print type",IDC_PRNTYPE_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,36,99,120,10
+    DEFPUSHBUTTON   "OK",IDOK,160,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,160,24,50,14
+END
+
+IDD_APP_EDIT_DLG DIALOGEX 0, 0, 332, 234
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Appointment"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,25,317,1
+    RTEXT           "Sub&ject:",IDC_STATIC,7,33,40,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_SUBJECT,50,31,275,14,ES_AUTOHSCROLL
+    RTEXT           "&Location:",IDC_STATIC,7,54,40,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_LOCATION,50,51,152,14,ES_AUTOHSCROLL
+    RTEXT           "La&bel:",IDC_STATIC,209,54,28,8,0,WS_EX_TRANSPARENT
+    COMBOBOX        IDC_LABEL,241,51,84,270,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,70,318,1
+    RTEXT           "S&tart time:",IDC_DATETIME_START_STATIC,7,79,40,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Start",IDC_DATE_START,50,77,71,12
+    PUSHBUTTON      "Start",IDC_TIME_START,126,77,48,12
+    RTEXT           "E&nd time:",IDC_DATETIME_END_STATIC,7,98,40,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "End",IDC_DATE_END,50,96,71,12
+    PUSHBUTTON      "End",IDC_TIME_END,126,96,48,12
+    CONTROL         "All da&y event",IDC_ALLDAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,188,78,62,10
+    RTEXT           "Sho&w time as:",IDC_STATIC,7,116,51,8,0,
+                    WS_EX_TRANSPARENT
+    COMBOBOX        IDC_SHOW_TIME,63,114,84,146,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "&Private",IDC_PRIVATE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,157,116,50,10
+    CONTROL         "&Meeting",IDC_MEETING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,208,116,50,10
+    CONTROL         "Phone &call",IDC_PHONECALL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,259,116,50,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,8,132,317,1
+    EDITTEXT        IDC_MEMO,7,139,318,88,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "&Save and Close",IDOK,7,7,75,14
+    PUSHBUTTON      "Rec&urrence...",IDC_BTN_RECURRENCE,87,7,75,14
+    PUSHBUTTON      "&Delete",IDC_BTN_DELETE,168,7,75,14
+END
+
+IDD_APP_REC_OPEN DIALOG DISCARDABLE  0, 0, 179, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open Recurring Item"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            "",IDC_APP_REC_ICON,7,7,20,20,SS_REALSIZEIMAGE
+    LTEXT           """%s"" is a recurring appointment. Do you want to open only this occurrence or the series?",
+                    IDC_APP_REC_QUEST,53,7,119,40
+    CONTROL         "Open this &occurrence.",IDC_APP_REC_RADIO_OCCURRENCE,
+                    "Button",BS_AUTORADIOBUTTON,53,53,119,10
+    CONTROL         "Open the &series.",IDC_APP_REC_RADIO_SERIES,"Button",
+                    BS_AUTORADIOBUTTON,53,65,119,10
+    DEFPUSHBUTTON   "OK",IDOK,33,84,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,84,50,14
+END
+
+IDD_APP_REC_DELETE DIALOG DISCARDABLE  0, 0, 179, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Confirm Delete"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            "",IDC_APP_REC_ICON,7,7,20,20,SS_REALSIZEIMAGE
+    LTEXT           "Do you want to delete all occurrences of the recurring appointment ""%s"", or just this one?",
+                    IDC_APP_REC_QUEST,53,7,119,40
+    CONTROL         "Delete this &occurrence.",IDC_APP_REC_RADIO_OCCURRENCE,
+                    "Button",BS_AUTORADIOBUTTON,53,53,119,10
+    CONTROL         "Delete the &series.",IDC_APP_REC_RADIO_SERIES,"Button",
+                    BS_AUTORADIOBUTTON,53,65,119,10
+    DEFPUSHBUTTON   "OK",IDOK,33,84,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,84,50,14
+END
+
+IDD_APP_RECURRENCE DIALOGEX 0, 0, 322, 212
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Appointment Recurrence"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "Appointment time",IDC_STATIC,7,7,308,31
+    LTEXT           "S&tart:",IDC_DATETIME_START_STATIC,14,20,24,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Start",IDC_TIME_START,40,18,49,12
+    RTEXT           "E&nd:",IDC_DATETIME_END_STATIC,93,20,23,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "End",IDC_TIME_END,121,18,49,12
+    RTEXT           "D&uration:",IDC_DATETIME_END_STATIC2,175,20,34,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Duration",IDC_DURATION,213,18,74,12
+    GROUPBOX        "Recurrence pattern",IDC_STATIC,7,39,308,71
+    CONTROL         "&Daily",IDC_RULE_DAILY,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,14,51,48,10
+    CONTROL         "&Weekly",IDC_RULE_WEEKLY,"Button",BS_AUTORADIOBUTTON,14,
+                    65,48,10
+    CONTROL         "&Monthly",IDC_RULE_MONTHLY,"Button",BS_AUTORADIOBUTTON,
+                    14,79,48,10
+    CONTROL         "&Yearly",IDC_RULE_YEARLY,"Button",BS_AUTORADIOBUTTON,14,
+                    93,48,10
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,62,51,1,54
+    CONTROL         "",IDC_POS_STATIC,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,69,51,240,52
+    GROUPBOX        "Range of recurrence",IDC_STATIC,7,111,308,67
+    LTEXT           "&Start:",IDC_DATETIME_START_STATIC2,14,124,24,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Start",IDC_DATE_START,40,122,71,12
+    CONTROL         "N&o end date",IDC_LIMIT_NONE,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,157,123,61,10
+    CONTROL         "End a&fter:",IDC_LIMIT_COUNT,"Button",
+                    BS_AUTORADIOBUTTON,157,140,61,10
+    CONTROL         "End &by:",IDC_LIMIT_DATE,"Button",BS_AUTORADIOBUTTON,
+                    157,158,61,10
+    EDITTEXT        IDC_COUNT,222,139,29,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "occurrences",IDC_STATIC,255,141,55,8
+    PUSHBUTTON      "End",IDC_DATE_END,222,156,85,12
+    DEFPUSHBUTTON   "OK",IDOK,61,191,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,122,191,50,14
+    PUSHBUTTON      "&Remove Recurrence",IDC_REMOVE,183,191,77,14
+END
+
+IDD_RECURRENCE_RULE_WEEKLY DIALOG DISCARDABLE  0, 0, 240, 52
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Re&cur every",IDC_STATIC,0,2,48,8
+    EDITTEXT        IDC_RW_SPAN,49,0,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "week(s) on:",IDC_STATIC,85,2,46,8
+    CONTROL         "monday",IDC_RW_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,19,59,10
+    CONTROL         "tuesday",IDC_RW_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,60,19,59,10
+    CONTROL         "wednesday",IDC_RW_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,19,59,10
+    CONTROL         "thursday",IDC_RW_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,180,19,59,10
+    CONTROL         "friday",IDC_RW_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,0,33,59,10
+    CONTROL         "saturday",IDC_RW_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,60,33,59,10
+    CONTROL         "sunday",IDC_RW_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,120,33,59,10
+END
+
+IDD_RECURRENCE_RULE_DAILY DIALOG DISCARDABLE  0, 0, 240, 52
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "E&very",IDC_RD_TYPE_SPAN,"Button",BS_AUTORADIOBUTTON,0,
+                    1,38,10
+    EDITTEXT        IDC_RD_SPAN,41,0,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "day(s)",IDC_STATIC,77,2,26,8
+    CONTROL         "Every wee&kday",IDC_RD_TYPE_WEEKDAYS,"Button",
+                    BS_AUTORADIOBUTTON,0,19,111,10
+END
+
+IDD_RECURRENCE_RULE_MONTHLY DIALOG DISCARDABLE  0, 0, 240, 52
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "D&ay",IDC_RM_DAY,"Button",BS_AUTORADIOBUTTON,0,1,32,10
+    CONTROL         "Th&e",IDC_RM_DAYTYPE,"Button",BS_AUTORADIOBUTTON,0,19,
+                    32,10
+    EDITTEXT        IDC_RM_DAY_DAY,33,0,23,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "of every",IDC_RM_STATIC1,62,2,32,8
+    EDITTEXT        IDC_RM_DAY_SPAN,96,0,23,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "month(s)",IDC_RM_STATIC2,125,2,34,8
+    COMBOBOX        IDC_RM_DAYTYPE_NUM,33,17,46,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RM_DAYTYPE_TYPE,82,17,58,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "of every",IDC_RM_STATIC3,144,19,32,8
+    EDITTEXT        IDC_RM_DAYTYPE_SPAN,178,17,23,14,ES_AUTOHSCROLL
+    LTEXT           "month(s)",IDC_RM_STATIC4,206,19,34,8
+END
+
+IDD_RECURRENCE_RULE_YEARLY DIALOG DISCARDABLE  0, 0, 240, 52
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "E&very",IDC_RY_DAY,"Button",BS_AUTORADIOBUTTON,0,1,36,
+                    10
+    CONTROL         "Th&e",IDC_RY_DAYTYPE,"Button",BS_AUTORADIOBUTTON,0,19,
+                    32,10
+    COMBOBOX        IDC_RY_DAY_MONTH,38,0,72,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_RY_DAY_DAY,111,0,23,14,ES_AUTOHSCROLL | ES_NUMBER
+    COMBOBOX        IDC_RY_DAYTYPE_NUM,38,17,46,63,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_RY_DAYTYPE_TYPE,87,17,58,66,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "of",IDC_RY_STATIC1,149,19,12,8
+    COMBOBOX        IDC_RY_DAYTYPE_MONTH,163,17,71,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_RESOURCE_EDIT_DLG DIALOGEX 0, 0, 257, 82
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Resource"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "&Description:",IDC_STATIC,7,9,47,8
+    EDITTEXT        IDC_DESCRIPTION,58,7,129,14,ES_AUTOHSCROLL
+    CONTROL         "Use &working interval",IDC_INTERVAL_CHECK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,28,180,10
+    LTEXT           "S&tart time:",IDC_DATETIME_START_STATIC,19,46,35,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "Start",IDC_TIME_START,58,44,72,12
+    LTEXT           "E&nd time:",IDC_DATETIME_END_STATIC,19,65,35,8,0,
+                    WS_EX_TRANSPARENT
+    PUSHBUTTON      "End",IDC_TIME_END,58,63,72,12
+    CONTROL         "&Visible",IDC_VISIBLE_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_TABSTOP,187,64,47,10
+    DEFPUSHBUTTON   "OK",IDOK,200,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,200,24,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BCGPCalendarDemo MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BCGPCalendarDemo\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BCGPCalendarDemo.EXE\0"
+            VALUE "ProductName", "BCGPCalendarDemo Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PLANNER_GOTO_DAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 163
+        VERTGUIDE, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_PRNTYPE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        VERTGUIDE, 36
+        VERTGUIDE, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 115
+    END
+
+    IDD_APP_EDIT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        VERTGUIDE, 47
+        VERTGUIDE, 50
+        VERTGUIDE, 121
+        VERTGUIDE, 126
+        VERTGUIDE, 174
+        VERTGUIDE, 202
+        VERTGUIDE, 237
+        VERTGUIDE, 241
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_APP_REC_OPEN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        VERTGUIDE, 53
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+        HORZGUIDE, 47
+        HORZGUIDE, 53
+    END
+
+    IDD_APP_REC_DELETE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        VERTGUIDE, 53
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+        HORZGUIDE, 47
+        HORZGUIDE, 53
+    END
+
+    IDD_APP_RECURRENCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 315
+        VERTGUIDE, 14
+        VERTGUIDE, 40
+        VERTGUIDE, 62
+        VERTGUIDE, 69
+        VERTGUIDE, 157
+        VERTGUIDE, 218
+        VERTGUIDE, 222
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 205
+    END
+
+    IDD_RECURRENCE_RULE_WEEKLY, DIALOG
+    BEGIN
+        VERTGUIDE, 60
+        VERTGUIDE, 120
+        VERTGUIDE, 180
+        HORZGUIDE, 19
+        HORZGUIDE, 33
+    END
+
+    IDD_RESOURCE_EDIT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 250
+        VERTGUIDE, 19
+        VERTGUIDE, 54
+        VERTGUIDE, 58
+        VERTGUIDE, 130
+        VERTGUIDE, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 75
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PLANNER_GOTO_DAY DLGINIT
+BEGIN
+    IDC_MODE_COMBO, 0x403, 10, 0
+0x6144, 0x2079, 0x6170, 0x656e, 0x006c, 
+    IDC_MODE_COMBO, 0x403, 16, 0
+0x6f57, 0x6b72, 0x7720, 0x6565, 0x206b, 0x6170, 0x656e, 0x006c, 
+    IDC_MODE_COMBO, 0x403, 11, 0
+0x6557, 0x6b65, 0x7020, 0x6e61, 0x6c65, "\000" 
+    IDC_MODE_COMBO, 0x403, 12, 0
+0x6f4d, 0x746e, 0x2068, 0x6170, 0x656e, 0x006c, 
+    IDC_MODE_COMBO, 0x403, 12, 0
+0x754d, 0x746c, 0x2069, 0x6170, 0x656e, 0x006c, 
+    0
+END
+
+IDD_RECURRENCE_RULE_MONTHLY DLGINIT
+BEGIN
+    IDC_RM_DAYTYPE_NUM, 0x403, 6, 0
+0x6966, 0x7372, 0x0074, 
+    IDC_RM_DAYTYPE_NUM, 0x403, 7, 0
+0x6573, 0x6f63, 0x646e, "\000" 
+    IDC_RM_DAYTYPE_NUM, 0x403, 6, 0
+0x6874, 0x7269, 0x0064, 
+    IDC_RM_DAYTYPE_NUM, 0x403, 7, 0
+0x6f66, 0x7275, 0x6874, "\000" 
+    IDC_RM_DAYTYPE_NUM, 0x403, 5, 0
+0x616c, 0x7473, "\000" 
+    IDC_RM_DAYTYPE_TYPE, 0x403, 4, 0
+0x6164, 0x0079, 
+    IDC_RM_DAYTYPE_TYPE, 0x403, 8, 0
+0x6577, 0x6b65, 0x6164, 0x0079, 
+    IDC_RM_DAYTYPE_TYPE, 0x403, 12, 0
+0x6577, 0x6b65, 0x6e65, 0x2064, 0x6164, 0x0079, 
+    0
+END
+
+IDD_RECURRENCE_RULE_YEARLY DLGINIT
+BEGIN
+    IDC_RY_DAYTYPE_NUM, 0x403, 6, 0
+0x6966, 0x7372, 0x0074, 
+    IDC_RY_DAYTYPE_NUM, 0x403, 7, 0
+0x6573, 0x6f63, 0x646e, "\000" 
+    IDC_RY_DAYTYPE_NUM, 0x403, 6, 0
+0x6874, 0x7269, 0x0064, 
+    IDC_RY_DAYTYPE_NUM, 0x403, 7, 0
+0x6f66, 0x7275, 0x6874, "\000" 
+    IDC_RY_DAYTYPE_NUM, 0x403, 5, 0
+0x616c, 0x7473, "\000" 
+    IDC_RY_DAYTYPE_TYPE, 0x403, 4, 0
+0x6164, 0x0079, 
+    IDC_RY_DAYTYPE_TYPE, 0x403, 8, 0
+0x6577, 0x6b65, 0x6164, 0x0079, 
+    IDC_RY_DAYTYPE_TYPE, 0x403, 12, 0
+0x6577, 0x6b65, 0x6e65, 0x2064, 0x6164, 0x0079, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "BCGPCalendarDemo\n\nBCGPCa\n\n\nBCGPCalendarDemo.Document\nBCGPCa Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "BCGPCalendarDemo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the standard toolbar\nToggle Standard Toolbar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    IDS_APPOINTMENT_1       "The end date you entered occured before the start date."
+    IDS_APPOINTMENT_2       "Incorrect duration."
+    IDS_APPOINTMENT_3       "The recurrence pattern is not valid."
+    IDS_APPOINTMENT_4       "Some months have fewer than %d days. For these months, the occurrence will fall on the last day of the month."
+    IDS_APPOINTMENT_5       "Any exceptions associated with this recurring appointment will be lost. Is this OK?"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CUSTOMIZE       "Customize toolbars ane menus.\nCustomize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_APPLOOK_2000    "Activate Office 2000 application look\nOffice 2000 Look"
+    ID_VIEW_APPLOOK_XP      "Activate Office XP application look\nOffice XP Look"
+    ID_VIEW_APPLOOK_2003    "Activate Office 2003 application look\nOffice 2003 Look"
+    ID_VIEW_APPLOOK_WIN_XP  "Activate Windows XP application look\nWindows XP Look"
+    ID_VIEW_APPLOOK_VS2005  "Activate Visual Studio 2005 application look\nVS 2005 Look"
+    ID_VIEW_APPLOOK_2007_1  "Activate Office 2007 application look\nOffice 2007 Look - Blue"
+    ID_VIEW_APPLOOK_2007_2  "Activate Office 2007 application look\nOffice 2007 Look - Black"
+    ID_VIEW_APPLOOK_2007_3  "Activate Office 2007 application look\nOffice 2007 Look - Aqua"
+    ID_VIEW_APPLOOK_2007_4  "Activate Office 2007 application look\nOffice 2007 Look - Silver"
+    ID_VIEW_APPLOOK_VS2008  "Activate Visual Studio 2008 application look\nVS 2008 Look"
+    ID_VIEW_CALENDARBAR     "Show or hide the calendar bar\nToggle Calendar Bar"
+    ID_PLANNER_MODE_DAY     "Day view\nDay"
+    ID_PLANNER_MODE_WORKWEEK "Work Week view\nWork Week"
+    ID_PLANNER_MODE_WEEK    "Week view\nWeek"
+    ID_PLANNER_MODE_MONTH   "Month view\nMonth"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CAPTIONBAR      "Show or hide the caption bar\nToggle Caption Bar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PLANNER_GOTO_THISDAY "Go to this date\nGo to This Date"
+    ID_PLANNER_GOTO_TODAY   "Today\nToday"
+    ID_PLANNER_GOTO_DAY     "Go to date\nGo to Date"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PLANNER_REMOVE_APP   "Delete appointment\nDelete"
+    ID_PLANNER_NEW_APPOINTMENT "Create a new appointment\nNew Appointment"
+    ID_PLANNER_OPEN_APP     "Open an appointment\nOpen"
+    ID_PLANNER_NEW_REC_APPOINTMENT 
+                            "Create a new recurring appointment\nNew Recurring Appointment"
+    ID_PLANNER_NEW          "New\nNew"
+    ID_VIEW_PROPBAR         "Show or hide the properties bar\nToggle Properties Bar"
+    ID_PLANNER_NEW_EVENT    "Create a new all day event\nNew All Day Event"
+    ID_PLANNER_NEW_REC_EVENT 
+                            "Create a new recurring event\nNew Recurring Event"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PLANNER_MODE_MULTI   "Multi view\nMulti"
+    ID_PLANNER_RESOURCE     "Select resource\nResource"
+    ID_PLANNER_RESOURCE_ADD "Add resource\nAdd"
+    ID_PLANNER_RESOURCE_REMOVE "Delete resource\nDelete"
+    ID_PLANNER_RESOURCE_PROP "Resource properties\nProperties"
+    ID_VIEW_PLANNERBAR      "Show or hide the planner toolbar\nToggle Planner Toolbar"
+    ID_VIEW_PLANNERMULTIBAR "Show or hide the planner resources toolbar\nToggle Planner Resources Toolbar"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BCGPCalendarDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+#if defined (_BCGCBPRO_STATIC_)
+#include "BCGCBPro.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Luna.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Obsidian.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Silver.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Aqua.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

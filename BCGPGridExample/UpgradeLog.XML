@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BCGPGridExample">
+</Property><Property Name="Solution File" Value="C:\BCGSoft\BCGCBProExamples\BCGPGridExample\BCGPGridExample.sln">
+</Property><Property Name="User Options File" Value="C:\BCGSoft\BCGCBProExamples\BCGPGridExample\BCGPGridExample.suo">
+</Property><Property Name="Date" Value="25 апреля 2008 г.">
+</Property><Property Name="Time" Value="17:39">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BCGPGridExample.sln" Description="File successfully backed up as C:\BCGSoft\BCGCBProExamples\BCGPGridExample\BCGPGridExample.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="BCGPGridExample.suo" Description="File successfully backed up as C:\BCGSoft\BCGCBProExamples\BCGPGridExample\BCGPGridExample.suo.old">
+</Event><Event ErrorLevel="2" Project="BCGPGridExample" Source="BCGPGridExample.vcproj" Description="The project file 'C:\BCGSoft\BCGCBProExamples\BCGPGridExample\BCGPGridExample.vcproj' cannot be updated to this Visual Studio 2008 version format because it is read-only on disk. Please set the permissions on the project file and re-open it to migrate the project.">
+</Event><Event ErrorLevel="0" Project="" Source="BCGPGridExample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BCGPGridExample.sln" Description="Converted">
+</Event></UpgradeLog>

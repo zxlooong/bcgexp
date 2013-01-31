@@ -1,0 +1,38 @@
+<STYLE>
+	<NORMAL>
+		<TAB>
+			<SIDE>
+				<SIZE>1, 4</SIZE>
+			</SIDE>
+			<CORNER>
+				<SIZE>11, 7</SIZE>
+				<CORNERS>5, 5, 5, 1</CORNERS>
+			</CORNER>
+			<ITEM>
+				<SIZE>9, 23</SIZE>
+				<CORNERS>4, 10, 4, 1</CORNERS>
+			</ITEM>
+		</TAB>
+		<BTN_SM_CLOSE>
+			<SIZE>17, 16</SIZE>
+		</BTN_SM_CLOSE>
+	</NORMAL>
+	<LARGE>
+		<TAB>
+			<SIDE>
+				<SIZE>1, 4</SIZE>
+			</SIDE>
+			<CORNER>
+				<SIZE>11, 7</SIZE>
+				<CORNERS>5, 5, 5, 1</CORNERS>
+			</CORNER>
+			<ITEM>
+				<SIZE>9, 23</SIZE>
+				<CORNERS>4, 10, 4, 1</CORNERS>
+			</ITEM>
+		</TAB>
+		<BTN_SM_CLOSE>
+			<SIZE>17, 16</SIZE>
+		</BTN_SM_CLOSE>
+	</LARGE>
+</STYLE>

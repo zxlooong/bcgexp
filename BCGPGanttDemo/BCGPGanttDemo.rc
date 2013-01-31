@@ -1,0 +1,691 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BCGPGanttDemo.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "#if defined (_BCGCBPRO_STATIC_)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Luna.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Obsidian.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Silver.rc""\r\n"
+    "#include ""..\\..\\BCGCBPro\\Styles\\BCGPStyle2007Aqua.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\BCGPGanttDemo.ico"
+IDR_BCGPCHTYPE          ICON                    "res\\BCGPGanttDemoDoc.ico"
+IDI_COMPLETE            ICON                    "res\\complete.ico"
+IDI_MILESTONE           ICON                    "res\\milestone.ico"
+IDI_MILESTONE_COMPLETE  ICON                    "res\\milestone_c.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+IDR_GANTT               BITMAP                  "res\\gantt.bmp"
+IDR_GANTT_DUMMY         BITMAP                  "res\\gantt_d.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_GANTT TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_GANTT_NEW
+    BUTTON      ID_GANTT_OPEN_TASK
+    BUTTON      ID_GANTT_REMOVE_TASK
+    SEPARATOR
+    BUTTON      ID_GANTT_GOTO_TODAY
+    SEPARATOR
+    BUTTON      ID_GANTT_LINK
+    BUTTON      ID_GANTT_UNLINK
+    BUTTON      ID_GANTT_MARK_COMPLETE
+    SEPARATOR
+    BUTTON      ID_GANTT_ZOOM_IN
+    BUTTON      ID_GANTT_ZOOM_OUT
+END
+
+IDR_GANTT_DUMMY TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_GANTT_NEW_TASK
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Gantt"
+    BEGIN
+        POPUP "T&ask"
+        BEGIN
+            MENUITEM "New &Task",                   ID_GANTT_NEW_TASK
+            MENUITEM "New &Milestone",              ID_GANTT_NEW_MILESTONE
+            MENUITEM SEPARATOR
+            MENUITEM "&Open",                       ID_GANTT_OPEN_TASK
+            MENUITEM SEPARATOR
+            MENUITEM "&Delete",                     ID_GANTT_REMOVE_TASK
+        END
+        POPUP "&Outline"
+        BEGIN
+            MENUITEM "&Indent",                     ID_GANTT_OUTLINE_INDENT
+            MENUITEM "&Outdent",                    ID_GANTT_OUTLINE_OUTDENT
+        END
+        POPUP "Mov&e"
+        BEGIN
+            MENUITEM "&Up",                         ID_GANTT_MOVE_UP
+            MENUITEM "&Down",                       ID_GANTT_MOVE_DOWN
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&Link Tasks\tCtrl+F2",        ID_GANTT_LINK
+        MENUITEM "U&nlink Tasks\tCtrl+Shift+F2", ID_GANTT_UNLINK
+        MENUITEM "&Mark Complete",              ID_GANTT_MARK_COMPLETE
+        MENUITEM SEPARATOR
+        MENUITEM "T&oday",                      ID_GANTT_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_GANTT_GOTO_DAY
+        MENUITEM SEPARATOR
+        POPUP "&View"
+        BEGIN
+            MENUITEM "Zoom &In\tCtrl+\\",           ID_GANTT_ZOOM_IN
+            MENUITEM "Zoom &Out\tCtrl+*",           ID_GANTT_ZOOM_OUT
+            MENUITEM SEPARATOR
+            MENUITEM "Show ToolTips",               ID_GANTT_SHOWTOOLTIP
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        POPUP "&Toolbars"
+        BEGIN
+            MENUITEM "",                            ID_VIEW_TOOLBARS
+        END
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM "&Properties Bar",             ID_VIEW_PROPBAR
+        MENUITEM SEPARATOR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Office &2000",                ID_VIEW_APPLOOK_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS2005
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_2007_1
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_2007_2
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_2007_3
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_2007_4
+            END
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS2008
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About BCGPGanttDemo...",     ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT_MENU MENU 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Paste",                      ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_TOOLBAR MENU 
+BEGIN
+    POPUP "DUMMY"
+    BEGIN
+        MENUITEM "&Standard",                   ID_VIEW_TOOLBAR
+        MENUITEM "&Gantt",                      ID_VIEW_GANTTBAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Customize...",               ID_VIEW_CUSTOMIZE
+    END
+END
+
+IDR_GANTT_NEW MENU 
+BEGIN
+    MENUITEM "New &Task",                   ID_GANTT_NEW_TASK
+    MENUITEM "New &Milestone",              ID_GANTT_NEW_MILESTONE
+END
+
+IDR_GANTT_TASK MENU 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "&Open",                       ID_GANTT_OPEN_TASK
+        MENUITEM "&Mark Complete",              ID_GANTT_MARK_COMPLETE
+        MENUITEM SEPARATOR
+        MENUITEM "&Indent",                     ID_GANTT_OUTLINE_INDENT
+        MENUITEM "O&utdent",                    ID_GANTT_OUTLINE_OUTDENT
+        MENUITEM "Move U&p",                    ID_GANTT_MOVE_UP
+        MENUITEM "Move Do&wn",                  ID_GANTT_MOVE_DOWN
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t",                        ID_EDIT_CUT
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM SEPARATOR
+        MENUITEM "&Delete",                     ID_GANTT_REMOVE_TASK
+    END
+END
+
+IDR_GANTT_CLIENT MENU 
+BEGIN
+    POPUP "_POPUP_"
+    BEGIN
+        MENUITEM "New &Task",                   ID_GANTT_NEW_TASK
+        MENUITEM "New &Milestone",              ID_GANTT_NEW_MILESTONE
+        MENUITEM SEPARATOR
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Cu&t",                        ID_EDIT_CUT
+            MENUITEM "&Copy",                       ID_EDIT_COPY
+            MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "T&oday",                      ID_GANTT_GOTO_TODAY
+        MENUITEM "Go &to Date...",              ID_GANTT_GOTO_DAY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_DIVIDE,      ID_GANTT_ZOOM_IN,       VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_GANTT_LINK,          VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_GANTT_UNLINK,        VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        ID_GANTT_OUTLINE_OUTDENT, VIRTKEY, SHIFT, ALT, NOINVERT
+    VK_MULTIPLY,    ID_GANTT_ZOOM_OUT,      VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_GANTT_OUTLINE_INDENT, VIRTKEY, SHIFT, ALT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 58
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About BCGPGanttDemo"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,7,21,20
+    LTEXT           "BCGPGanttDemo Version 1.0",IDC_STATIC,40,7,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+    PUSHBUTTON      "http://www.bcgsoft.com",IDC_COMPANY_URL,40,36,119,14
+END
+
+IDD_GANTT_EDIT_DLG DIALOGEX 0, 0, 332, 214
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit Task"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,25,317,1
+    RTEXT           "&Name:",IDC_STATIC,7,33,40,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_NAME,50,31,275,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,51,318,1
+    RTEXT           "S&tart time:",IDC_DATETIME_START_STATIC,7,60,40,8,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Start",IDC_DATE_START,50,58,71,12
+    PUSHBUTTON      "Start",IDC_TIME_START,126,58,48,12
+    RTEXT           "E&nd time:",IDC_DATETIME_END_STATIC,7,79,40,8,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "End",IDC_DATE_END,50,77,71,12
+    PUSHBUTTON      "End",IDC_TIME_END,126,77,48,12
+    RTEXT           "&Progress %:",IDC_PROGRESS_STATIC,182,79,40,8,0,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_PROGRESS_EDIT,227,77,40,13,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Spin1",IDC_PROGRESS_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,267,76,11,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,95,316,1
+    EDITTEXT        IDC_MEMO,7,119,318,88,ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
+    PUSHBUTTON      "&Save and Close",IDOK,7,7,75,14
+    PUSHBUTTON      "&Delete",IDC_BTN_DELETE,89,7,75,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,171,7,75,14
+    RTEXT           "&Bar Color:",IDC_STATIC,7,102,62,8,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Color1",IDC_COLOR1,77,101,71,12
+    PUSHBUTTON      "Color2",IDC_COLOR2,228,101,71,12
+    RTEXT           "&Complete color:",IDC_STATIC,156,102,66,8,0,WS_EX_TRANSPARENT
+END
+
+IDD_GANTT_GOTO_DAY DIALOG  0, 0, 238, 46
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Go To Date"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "",-1,6,3,164,36
+    LTEXT           "&Date:",-1,14,18,36,8
+    PUSHBUTTON      "Button1",IDC_DATETIMEPICKER,50,15,113,14
+    DEFPUSHBUTTON   "OK",IDOK,181,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,181,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "BCGPGanttDemo MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "BCGPGanttDemo"
+            VALUE "LegalCopyright", "Copyright (C) 2003"
+            VALUE "OriginalFilename", "BCGPGanttDemo.EXE"
+            VALUE "ProductName", "BCGPGanttDemo Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_GANTT_EDIT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        VERTGUIDE, 47
+        VERTGUIDE, 50
+        VERTGUIDE, 121
+        VERTGUIDE, 126
+        VERTGUIDE, 174
+        VERTGUIDE, 222
+        VERTGUIDE, 227
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 207
+    END
+
+    IDD_GANTT_GOTO_DAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 163
+        VERTGUIDE, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24             "xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_MAINFRAME_HC        PNG                     "res\\Toolbar_hc.png"
+IDB_GANTT_HC            PNG                     "res\\Gantt_hc.png"
+IDB_GANTT_DUMMY_HC      PNG                     "res\\Gantt_d_hc.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "BCGPGanttDemo\n\nBCGPCh\n\n\nBCGPGanttDemo.Document\nBCGPCh Document"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "BCGPGanttDemo"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_OUTLOOKBAR      "Show or hide the shortcuts bar\nToggle Shortcuts Bar"
+    ID_SERIES_LEGEND        "Show/Hide Legend\nLegend"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_CUSTOMIZE       "Customize toolbars ane menus.\nCustomize"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_TOOLBAR        "Standard"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_APPLOOK_2000    "Activate Office 2000 application look\nOffice 2000 Look"
+    ID_VIEW_APPLOOK_XP      "Activate Office XP application look\nOffice XP Look"
+    ID_VIEW_APPLOOK_2003    "Activate Office 2003 application look\nOffice 2003 Look"
+    ID_VIEW_APPLOOK_WIN_XP  "Activate Windows XP application look\nWindows XP Look"
+    ID_VIEW_APPLOOK_VS2005  "Activate Visual Studio 2005 application look\nVS 2005 Look"
+    ID_VIEW_APPLOOK_2007_1  "Activate Office 2007 application look\nOffice 2007 Look - Blue"
+    ID_VIEW_APPLOOK_2007_2  "Activate Office 2007 application look\nOffice 2007 Look - Black"
+    ID_VIEW_APPLOOK_2007_3  "Activate Office 2007 application look\nOffice 2007 Look - Aqua"
+    ID_VIEW_APPLOOK_2007_4  "Activate Office 2007 application look\nOffice 2007 Look - Silver"
+    ID_VIEW_APPLOOK_VS2008  "Activate Visual Studio 2008 application look\nVS 2008 Look"
+    ID_VIEW_PROPBAR         "Show or hide the properties bar\nToggle Properties Bar"
+    ID_GANTT_LINK           "\nLink Tasks"
+    ID_GANTT_UNLINK         "\nUnlink Tasks"
+    ID_GANTT_ZOOM_IN        "\nZoom In"
+    ID_GANTT_ZOOM_OUT       "\nZoom Out"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_GANTTBAR        "Show or hide the gantt toolbar\nToggle Gantt ToolBar"
+    ID_GANTT_NEW_TASK       "Create a new task\nNew Task"
+    ID_GANTT_NEW_MILESTONE  "Create a new milestone\nNew Milestone"
+    ID_GANTT_OPEN_TASK      "Open a task\nOpen"
+    ID_GANTT_REMOVE_TASK    "Delete task\nDelete"
+    ID_GANTT_NEW            "New\nNew"
+    ID_GANTT_GOTO_TODAY     "Today\nToday"
+    ID_GANTT_MARK_COMPLETE  "Mark complete\nMark Complete"
+    ID_GANTT_GOTO_DAY       "Go to date\nGo to Date"
+    IDS_GANTT_1             "The end date you entered occured before the start date."
+    ID_GANTT_OUTLINE_INDENT "\nIndent"
+    ID_GANTT_OUTLINE_OUTDENT "\nOutdent"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BCGPGanttDemo.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+#if defined (_BCGCBPRO_STATIC_)
+#include "BCGCBPro.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Luna.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Obsidian.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Silver.rc"
+#include "..\..\BCGCBPro\Styles\BCGPStyle2007Aqua.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

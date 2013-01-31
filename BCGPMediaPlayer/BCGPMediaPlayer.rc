@@ -1,0 +1,551 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\BCGPMediaPlayer.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "#if defined (_BCGCBPRO_STATIC_)\r\n"
+    "#include ""BCGCBPro.rc""\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\BCGPMediaPlayer.ico"
+IDR_BCGPMETYPE          ICON    DISCARDABLE     "res\\BCGPMediaPlayerDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_MP_BORDER_CAPTION   PNG     MOVEABLE PURE   "res\\BorderCaption.png"
+IDB_MP_BORDER_CAPTION_B PNG     MOVEABLE PURE   "res\\BorderCaptionB.png"
+IDB_MP_BORDER_CAPTION_M PNG     MOVEABLE PURE   "res\\BorderCaptionM.png"
+IDB_MP_BORDER_CAPTION_M_B PNG     MOVEABLE PURE   "res\\BorderCaptionMB.png"
+IDB_MP_BORDER_M         PNG     MOVEABLE PURE   "res\\BorderM.png"
+IDB_MP_BORDER_EXPLORER_L PNG     MOVEABLE PURE   "res\\BorderExplorerL.png"
+IDB_MP_BORDER_EXPLORER_R PNG     MOVEABLE PURE   "res\\BorderExplorerR.png"
+IDB_MP_BORDER_L         PNG     MOVEABLE PURE   "res\\BorderL.png"
+IDB_MP_BORDER_R         PNG     MOVEABLE PURE   "res\\BorderR.png"
+IDB_MP_BORDER_NAVI1_L   PNG     MOVEABLE PURE   "res\\BorderNavi1L.png"
+IDB_MP_BORDER_NAVI1_R   PNG     MOVEABLE PURE   "res\\BorderNavi1R.png"
+IDB_MP_BORDER_NAVI1_B   PNG     MOVEABLE PURE   "res\\BorderNavi1B.png"
+IDB_MP_BORDER_NAVI2_L   PNG     MOVEABLE PURE   "res\\BorderNavi2L.png"
+IDB_MP_BORDER_NAVI2_R   PNG     MOVEABLE PURE   "res\\BorderNavi2R.png"
+IDB_MP_BORDER_NAVI2_B   PNG     MOVEABLE PURE   "res\\BorderNavi2B.png"
+IDB_MP_BORDER_NAVI2_B_CTRL PNG     MOVEABLE PURE   "res\\BorderNavi2BCtrl.png"
+IDB_MP_BTN_SYS          PNG     MOVEABLE PURE   "res\\btnSys.png"
+IDB_MP_BTN_SYS_1        PNG     MOVEABLE PURE   "res\\btnSys1.png"
+IDB_MP_BTN_SYS_2        PNG     MOVEABLE PURE   "res\\btnSys2.png"
+IDB_MP_BTN_SYS_3        PNG     MOVEABLE PURE   "res\\btnSys3.png"
+IDB_MP_ICON_CLOSE       PNG     MOVEABLE PURE   "res\\iconClose.png"
+IDB_MP_ICON_RESTORE     PNG     MOVEABLE PURE   "res\\iconRestore.png"
+IDB_MP_ICON_MINIMIZE    PNG     MOVEABLE PURE   "res\\iconMinimize.png"
+IDB_MP_ICON_MAXIMIZE    PNG     MOVEABLE PURE   "res\\iconMaximize.png"
+IDB_MP_CAPTION_BTN_CLOSE PNG     MOVEABLE PURE   "res\\btnCaptionClose.png"
+IDB_BACK_EXPLORER       PNG     MOVEABLE PURE   "res\\backExplorer.png"
+IDB_EXPLORER_BF         PNG     MOVEABLE PURE   "res\\btnExplorerBF.png"
+IDB_EXPLORER_BF_FRAME   PNG     MOVEABLE PURE   "res\\btnExplorerFrameBF.png"
+IDB_BTN_EXPLORER        PNG     MOVEABLE PURE   "res\\btnExplorer.png"
+IDB_BTN_EXPLORER_SEP    PNG     MOVEABLE PURE   "res\\btnExplorerSep.png"
+IDB_BTN_EXPLORER_LOGO   PNG     MOVEABLE PURE   "res\\btnExplorerLogo.png"
+IDB_BACK_NAVI1          PNG     MOVEABLE PURE   "res\\backNavi1.png"
+IDB_BACK_NAVI1_CTRL     PNG     MOVEABLE PURE   "res\\backNavi1Ctrl.png"
+IDB_BACK_NAVI1_CTRL_A   PNG     MOVEABLE PURE   "res\\backNavi1CtrlA.png"
+IDB_BACK_NAVI2          PNG     MOVEABLE PURE   "res\\backNavi2.png"
+IDB_BACK_NAVI2_CTRL     PNG     MOVEABLE PURE   "res\\backNavi2Ctrl.png"
+IDB_BACK_NAVI2_CTRL_A   PNG     MOVEABLE PURE   "res\\backNavi2CtrlA.png"
+IDB_BTN_NORMAL          PNG     MOVEABLE PURE   "res\\btnNormal.png"
+IDB_BTN_SPLIT           PNG     MOVEABLE PURE   "res\\btnSplit.png"
+IDB_BTN_SPLIT_M         PNG     MOVEABLE PURE   "res\\btnSplitM.png"
+IDB_ICON_ARROW_DOWN     PNG     MOVEABLE PURE   "res\\iconArrowDown.png"
+IDB_NAVI_STOP_ICON      PNG     MOVEABLE PURE   "res\\iconStop.png"
+IDB_NAVI_PREV           PNG     MOVEABLE PURE   "res\\btnPrev.png"
+IDB_NAVI_PREV_ICON      PNG     MOVEABLE PURE   "res\\iconPrev.png"
+IDB_NAVI_PLAY           PNG     MOVEABLE PURE   "res\\btnPlay.png"
+IDB_NAVI_PLAY_ICON      PNG     MOVEABLE PURE   "res\\iconPlay.png"
+IDB_NAVI_PLAY_H         PNG     MOVEABLE PURE   "res\\iconPlayH.png"
+IDB_NAVI_NEXT           PNG     MOVEABLE PURE   "res\\btnNext.png"
+IDB_NAVI_NEXT_ICON      PNG     MOVEABLE PURE   "res\\iconNext.png"
+IDB_NAVI_SOUND_ICON     PNG     MOVEABLE PURE   "res\\iconSound.png"
+IDB_NAVI_PROGRESS_BACK  PNG     MOVEABLE PURE   "res\\backProgress.png"
+IDB_NAVI_PROGRESS_ICON  PNG     MOVEABLE PURE   "res\\iconProgress.png"
+IDB_NAVI_PROGRESS_ICON_R PNG     MOVEABLE PURE   "res\\iconProgressR.png"
+IDB_THUMB_B             PNG     MOVEABLE PURE   "res\\thumbB.png"
+IDB_THUMB_V             PNG     MOVEABLE PURE   "res\\thumbV.png"
+IDB_CHANNEL_EQUALIZER_V PNG     MOVEABLE PURE   "res\\channelEqV.png"
+IDB_BTN_BAR_PREV        PNG     MOVEABLE PURE   "res\\btnBarPrev.png"
+IDB_BTN_BAR_NEXT        PNG     MOVEABLE PURE   "res\\btnBarNext.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About BCGPMediaPlayer...",   ID_APP_ABOUT
+    END
+END
+
+IDR_DUMMY MENU DISCARDABLE 
+BEGIN
+    POPUP "Explorer"
+    BEGIN
+        MENUITEM "Back",                        ID_GOTO_BACK
+        MENUITEM "Forward",                     ID_GOTO_FORWARD
+        MENUITEM SEPARATOR
+        POPUP "Open Media"
+        BEGIN
+            MENUITEM "Open...",                     ID_FILE_OPEN
+            MENUITEM SEPARATOR
+            MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+            , GRAYED
+        END
+        POPUP "View"
+        BEGIN
+            MENUITEM "Color chooser",               ID_VIEW_COLOR_CHOOSER
+            MENUITEM "Graphic Equalizer",           ID_VIEW_EQUALIZER
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "BCGSoft",                     ID_EXPLORER_WEB
+    END
+    POPUP "Navigation"
+    BEGIN
+        MENUITEM "Stop",                        ID_NAVI_STOP
+        MENUITEM "Previous",                    ID_NAVI_PREV
+        MENUITEM "Play",                        ID_NAVI_PLAY
+        MENUITEM "Next",                        ID_NAVI_NEXT
+        MENUITEM "Sound",                       ID_NAVI_SOUND
+        MENUITEM "Volume",                      ID_NAVI_VOLUME
+    END
+END
+
+IDR_EXPLORER_VIEW MENU DISCARDABLE 
+BEGIN
+    MENUITEM "Color &Chooser",              ID_VIEW_COLOR_CHOOSER
+    MENUITEM "&Equalizer",                  ID_VIEW_EQUALIZER
+END
+
+IDR_EXPLORER_OPEN MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&Open...",                    ID_FILE_OPEN
+    MENUITEM SEPARATOR
+    MENUITEM "Recent &Files",               ID_FILE_MRU_FILE1, GRAYED
+END
+
+IDR_EXPLORER_HELP MENU DISCARDABLE 
+BEGIN
+    MENUITEM "&About BCGPMediaPlayer...",   ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "BCGPMediaPlayer MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "BCGPMediaPlayer\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "BCGPMediaPlayer.EXE\0"
+            VALUE "ProductName", "BCGPMediaPlayer Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "xptheme.xml"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_COLOR_CHOOSER_BAR DIALOG DISCARDABLE  0, 0, 165, 91
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Hue:",IDC_STATIC,5,5,16,8
+    CONTROL         "Slider1",IDC_CH_SLIDER_H,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,5,17,155,14
+    LTEXT           "Saturation:",IDC_STATIC,5,34,35,8
+    CONTROL         "Slider1",IDC_CH_SLIDER_S,"msctls_trackbar32",
+                    TBS_NOTICKS | WS_TABSTOP,5,46,155,14
+    PUSHBUTTON      "<",IDC_CH_PRESET_PREV,12,74,12,12
+    PUSHBUTTON      ">",IDC_CH_PRESET_NEXT,25,74,12,12
+    PUSHBUTTON      "Reset",IDC_CH_RESET,43,74,30,12
+END
+
+IDD_EQUALIZER_BAR DIALOG DISCARDABLE  0, 0, 143, 88
+STYLE WS_CHILD | WS_VISIBLE | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_EQ_SLIDER_1,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,5,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_2,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,18,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_3,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,32,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_4,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,45,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_5,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,58,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_6,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,72,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_7,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,85,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_8,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,98,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_9,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,112,5,13,55
+    CONTROL         "Slider1",IDC_EQ_SLIDER_10,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,125,5,13,55
+    CTEXT           "L1",IDC_LABEL1,5,60,9,8
+    CTEXT           "L1",IDC_LABEL2,18,60,9,8
+    CTEXT           "L1",IDC_LABEL3,32,60,9,8
+    CTEXT           "L1",IDC_LABEL4,45,60,9,8
+    CTEXT           "L1",IDC_LABEL5,58,60,9,8
+    CTEXT           "L1",IDC_LABEL6,72,60,9,8
+    CTEXT           "L1",IDC_LABEL7,85,60,9,8
+    CTEXT           "L1",IDC_LABEL8,98,60,9,8
+    CTEXT           "L1",IDC_LABEL9,112,60,9,8
+    CTEXT           "L1",IDC_LABEL10,125,60,9,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_COLOR_CHOOSER_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 160
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_EQUALIZER_BAR, DIALOG
+    BEGIN
+        RIGHTMARGIN, 138
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 83
+        HORZGUIDE, 60
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "BCGPMediaPlayer\n\nBCGPMe\n\n\nBCGPMediaPlayer.Document\nBCGPMe Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "BCGPMediaPlayer"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "\nAbout BCGPMediaPlayer"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_CUSTOMIZE       "Customize toolbars ane menus.\nCustomize"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_COLOR_CHOOSER   "Show or hide color chooser\nColor Chooser"
+    ID_VIEW_EQUALIZER       "Show or hide graphic equalizer\nGraphic Equalizer"
+    ID_FILE_WEB             "Visit BCGSoft web site\nBCGSoft"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_GOTO_BACK            "\nBack"
+    ID_GOTO_FORWARD         "\nForward"
+    ID_NAVI_STOP            "\nStop"
+    ID_NAVI_PREV            "\nPrevious"
+    ID_NAVI_PLAY            "\nPlay"
+    ID_NAVI_NEXT            "\nNext"
+    ID_NAVI_SOUND           "\nSound"
+    ID_NAVI_VOLUME          "\nVolume"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EXPLORER_WEB         "\nVisit WEB Site"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\BCGPMediaPlayer.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+#if defined (_BCGCBPRO_STATIC_)
+#include "BCGCBPro.rc"
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

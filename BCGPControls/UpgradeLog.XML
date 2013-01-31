@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BCGPControls">
+</Property><Property Name="Solution File" Value="C:\bcgsoft\BCGCBProExamples\BCGPControls\BCGPControls.sln">
+</Property><Property Name="User Options File" Value="C:\bcgsoft\BCGCBProExamples\BCGPControls\BCGPControls.suo">
+</Property><Property Name="Date" Value="21 ноября 2006 г.">
+</Property><Property Name="Time" Value="2:19">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BCGPControls.sln" Description="File successfully backed up as C:\bcgsoft\BCGCBProExamples\BCGPControls\BCGPControls.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="BCGPControls.suo" Description="File successfully backed up as C:\bcgsoft\BCGCBProExamples\BCGPControls\BCGPControls.suo.old">
+</Event><Event ErrorLevel="0" Project="BCGPControls" Source="BCGPControls.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="BCGPControls" Source="BCGPControls.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BCGPControls.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BCGPControls.sln" Description="Converted">
+</Event></UpgradeLog>

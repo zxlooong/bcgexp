@@ -1,0 +1,132 @@
+<SETTINGS>
+<OPTIONS>
+	<WordDelimeters>" \t\n,./?LTGT;:\"'{[}]~`%^AMP*()-+=!"</WordDelimeters>
+	<SpecialDelimiters>";.{}\n"</SpecialDelimiters>
+	<IntelliSenseChars>".>:"</IntelliSenseChars>
+  <EscapeSequences>
+    <EscapeSequence>\"</EscapeSequence>
+    <EscapeSequence>\\</EscapeSequence>
+  </EscapeSequences>
+</OPTIONS>
+<COLOR_DATA>
+	<KEYWORDS>
+		<Color>0000ff</Color>
+		<CaseSensitive>False</CaseSensitive>
+		<Keyword>Imports</Keyword>
+		<Keyword>Public</Keyword>
+		<Keyword>Protected</Keyword>
+		<Keyword>Private</Keyword>
+		<Keyword>Module</Keyword>
+		<Keyword>Sub</Keyword>
+		<Keyword>Function</Keyword>
+		<Keyword>Const</Keyword>
+		<Keyword>As</Keyword>
+		<Keyword>Integer</Keyword>
+		<Keyword>Dim</Keyword>
+		<Keyword>End</Keyword>
+		<Keyword>If</Keyword>
+		<Keyword>Then</Keyword>
+		<Keyword>Boolean</Keyword>
+		<Keyword>Byte</Keyword>
+		<Keyword>Char</Keyword>
+		<Keyword>DateTime</Keyword>
+		<Keyword>Long</Keyword>
+		<Keyword>Double</Keyword>
+		<Keyword>Single</Keyword>
+		<Keyword>Int16</Keyword>
+		<Keyword>UInt16</Keyword>
+		<Keyword>Int32</Keyword>
+		<Keyword>UInt32</Keyword>
+		<Keyword>Int64</Keyword>
+		<Keyword>UInt64</Keyword>
+		<Keyword>String</Keyword>
+		<Keyword>Nothing</Keyword>
+		<Keyword>For</Keyword>
+		<Keyword>Each</Keyword>
+		<Keyword>To</Keyword>
+		<Keyword>DownTo</Keyword>
+		<Keyword>In</Keyword>
+		<Keyword>Next</Keyword>
+		<Keyword>Try</Keyword>
+		<Keyword>Catch</Keyword>
+		<Keyword>True</Keyword>
+		<Keyword>False</Keyword>
+		<Keyword>Exit</Keyword>
+		<Keyword>Not</Keyword>
+		<Keyword>New</Keyword>
+		<Keyword>ByVal</Keyword>
+		<Keyword>Return</Keyword>
+		<Keyword>Option</Keyword>
+		<Keyword>Off</Keyword>
+		<Keyword>On</Keyword>
+		<Keyword>Strict</Keyword>
+		<Keyword>Explicit</Keyword>
+		<Keyword>And</Keyword>
+		<Keyword>Or</Keyword>
+		<Keyword>Do</Keyword>
+		<Keyword>While</Keyword>
+		<Keyword>End While</Keyword>
+		<Keyword>Loop</Keyword>
+		<Keyword>Else</Keyword>
+		<Keyword>ElseIf</Keyword>
+		<Keyword>CStr</Keyword>
+		<Keyword>Finally</Keyword>
+	</KEYWORDS>
+	<BLOCKS>
+		<BLOCK>
+			<Start>"</Start>
+			<End>"</End>
+			<Color>"darkred"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+		<BLOCK>
+			<Start>'</Start>
+			<Color>"darkgreen"</Color>
+			<WholeText>false</WholeText>
+		</BLOCK>
+	</BLOCKS>
+</COLOR_DATA>
+<OUTLINE_DATA>
+    <IgnoreOneLineBlocks>True</IgnoreOneLineBlocks>
+    <IncludeSpaceLines>True</IncludeSpaceLines>
+    <CaseSensitive>True</CaseSensitive>
+    <WholeWords>False</WholeWords>
+    <EscapeSequences>
+                <EscapeSequence>\"</EscapeSequence>
+                <EscapeSequence>\\</EscapeSequence>
+    </EscapeSequences>
+    <BLOCKS>
+		<BLOCK>
+			<Start>Module</Start>
+			<End>End Module</End>
+			<AllowNestedBlocks>True</AllowNestedBlocks>
+		</BLOCK>
+		<BLOCK>
+			<Start>Sub</Start>
+			<End>End Sub</End>
+            <AllowNestedBlocks>False</AllowNestedBlocks>
+		</BLOCK>
+		<BLOCK>
+			<Start>Function</Start>
+			<End>End Function</End>
+			<AllowNestedBlocks>False</AllowNestedBlocks>
+		</BLOCK>
+    </BLOCKS>
+</OUTLINE_DATA>
+<HYPERLINKS>
+    <EnableHyperlinkSupport>True</EnableHyperlinkSupport>
+    <HighlightWithColor>True</HighlightWithColor>
+    <URLPrefixes>
+        <URLPrefix>http://</URLPrefix>
+        <URLPrefix>ftp://</URLPrefix>
+        <URLPrefix>mailto:</URLPrefix>
+        <URLPrefix>news://</URLPrefix>
+        <URLPrefix>file://</URLPrefix>
+        <URLPrefix>telnet://</URLPrefix>
+        <URLPrefix>gopher://</URLPrefix>
+        <URLPrefix>prospero://</URLPrefix>
+        <URLPrefix>wais://</URLPrefix>
+        <URLPrefix>nntp://</URLPrefix>
+    </URLPrefixes>
+</HYPERLINKS>
+</SETTINGS>

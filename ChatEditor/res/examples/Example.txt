@@ -1,0 +1,12 @@
+[2:17 PM] connecting to server...
+[2:17 PM] Dmitry joined the chat
+[2:17 PM] Dmitry: Hi all
+[2:17 PM] Albert: Hello, how are you?
+[2:17 PM] Anna: Hi!
+[2:17 PM] Dmitry: All ok ;)
+[2:17 PM] Vadim: Hi
+[2:17 PM] Administrator: Welcome to my site!
+[2:17 PM] Robert: to Anna: what's about a lunch?
+[2:17 PM] Anna: I'm busy today :(
+[2:17 PM] Administrator runs "c:\admin\start.bat" (File or path not found)
+[2:17 PM] Administrator: oops :)
